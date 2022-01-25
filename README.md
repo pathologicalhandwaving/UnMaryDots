@@ -11,6 +11,7 @@ Personal dotfiles
   + Bash
   + Emacs
   + Git
+  + OpenRazer
 
 ## Installation
 
