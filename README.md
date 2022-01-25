@@ -13,5 +13,15 @@ Personal dotfiles
   + Git
   + OpenRazer
 
+## Applications
+
+  + Terminator
+  + Cozy
+  + Vivaldi
+  + Chrome
+  + Tor
+  + Signal
+  + Slack
+  
 ## Installation
 
