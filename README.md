@@ -2,6 +2,7 @@
 
 ![](logo.jpeg)
 
+Personal dotfiles
 
 ## Featuring
 
@@ -9,6 +10,7 @@
   + LaTeX
   + Bash
   + Emacs
+  + Git
 
 ## Installation
 
