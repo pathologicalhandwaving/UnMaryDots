@@ -1,0 +1,24 @@
+# Aliases
+
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+alias c='clear'
+alias sbp='source /home/unmary/.bashrc'
+alias sba='source /home/unmary/.aliases'
+alias ".."='cd ..'
+
+# Git Aliases
+alias gg='git pull && git add . && git commit -m "update" && git push && git status'
+
+alias gl='git clone'
+alias ga='git add .'
+alias gc='git commit -m "$1"'
+alias gp='git push'
+alias gf='git pull'
+alias gs='git status'
+
+# Librarian
+alias lib='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34 && ls'
+
+# Emacs
+alias em='cd ~/.emacs.d/'
