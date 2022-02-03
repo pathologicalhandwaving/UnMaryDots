@@ -12,7 +12,7 @@ alias gg='git pull && git add . && git commit -m "update" && git push && git sta
 
 alias gl='git clone'
 alias ga='git add .'
-alias gc='git commit -m "$1"'
+alias gc='git commit -m "$@"'
 alias gp='git push'
 alias gf='git pull'
 alias gs='git status'
