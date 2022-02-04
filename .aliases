@@ -17,8 +17,20 @@ alias gp='git push'
 alias gf='git pull'
 alias gs='git status'
 
+#git pull origin master --allow-unrelated-histories
+
 # Librarian
 alias lib='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34 && ls'
+
+# Notes
+alias notes='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/Notes && ls'
+alias org='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/Notes/Org && ls'
+
+# Dictionary
+alias dic='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/Dictionary && ls'
+
+# Bibliography
+alias bib='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/Dictionary && ls'
 
 # Emacs
 alias em='cd ~/.emacs.d/'
