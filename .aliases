@@ -6,9 +6,15 @@ alias c='clear'
 alias sbp='source /home/unmary/.bashrc'
 alias sba='source /home/unmary/.aliases'
 alias ".."='cd ..'
+alias x='exit'
 
 alias su='sudo -i'
 alias upp='sudo apt update && upgrade -y'
+
+# Copy Paste
+alias pbc='xclip -selection clipboard'
+alias pbp='xclip -o -selection clipboard'
+
 
 # Git Aliases
 alias gg='git pull && git add . && git commit -m "update" && git push && git status'
@@ -38,8 +44,11 @@ alias bib='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/Dictionary && ls'
 # MeDB
 alias me='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/MeDB && ls'
 
+# Work
+alias work='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/Work/WorkStuff/ && ls'
+
 # Emacs
 alias em='cd ~/.emacs.d/'
 
 # tree 2
-alias tre='tree -L 2'
+alias tr2='tree -L 2'
