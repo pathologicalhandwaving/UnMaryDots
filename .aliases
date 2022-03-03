@@ -45,7 +45,7 @@ alias bib='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/Dictionary && ls'
 alias me='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/MeDB && ls'
 
 # Work
-alias work='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/Work/WorkStuff/ && ls'
+alias work='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/Work/ && ls'
 
 # Emacs
 alias em='cd ~/.emacs.d/'
