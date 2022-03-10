@@ -16,8 +16,9 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=100000
+HISTFILESIZE=200000
+HISTCONTROL=ignoredups:erasedups
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -126,4 +127,14 @@ export PATH="/home/unmary/.local/bin:$PATH"
 if [ -z "$SSH_AUTH_SOCK" ] ; then
     eval `ssh-agent -s`
     ssh-add
+fi
+
+# load powerline
+if [ -f `which powerline-daemon` ]; then
+    powerline-daemon -q
+    POWERLINE_BASH_CONTINUATION=1
+    POWERLINE_BASH_SELECT=1
+fi
+if [ -f /usr/local/lib/python3.8/dist-packages/powerline/bindings/bash/powerline.sh ]; then
+    source /usr/local/lib/python3.8/dist-packages/powerline/bindings/bash/powerline.sh
 fi
