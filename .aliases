@@ -28,24 +28,30 @@ alias gs='git status'
 
 #git pull origin master --allow-unrelated-histories
 
+# Downloads
+alias down='cd /home/unmary/Downloads/ && tree -L 1'
+
 # Librarian
-alias lib='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34 && ls'
+alias lib='cd /home/unmary/Librarian/ && tree -L 1'
 
 # Notes
-alias notes='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/Notes && ls'
-alias org='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/Notes/Org && ls'
+alias notes='cd /home/unmary/Librarian/Notes/ && tree -L 1'
+
+# Roam Notes
+alias roam='cd /home/unmary/Librarian/Roam/ && tree -L 1'
+
 
 # Dictionary
-alias dic='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/Dictionary && ls'
+alias dic='cd /home/unmary/Librarian/Dictionary/ && tree -L 1'
 
 # Bibliography
-alias bib='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/Dictionary && ls'
+alias bib='cd /home/unmary/Librarian/Bibliography/ && tree -L 1'
 
-# MeDB
-alias me='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/MeDB && ls'
+# Books
+alias books='cd /home/unmary/Librarian/Books/ && tree -L 1'
 
 # Work
-alias work='cd /mnt/bd9dc6ee-d251-406d-8dce-ea714434ee34/Work/ && ls'
+alias work='cd /home/unmary/Librarian/WorkStuff/ && tree -L 1'
 
 # Emacs
 alias em='cd ~/.emacs.d/'

@@ -103,13 +103,19 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
 if [ -f ~/.aliases ]; then
-    . ~/.aliases
+	. ~/.aliases
 fi
 
 # Function definitions
 if [ -f ~/.functions ]; then
 	. ~/.functions
 fi
+
+# Note Function Definitions
+if [ -f ~/.notecfg ]; then
+	. ~/.notecfg
+fi
+
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
